@@ -1,9 +1,14 @@
 package javaCamp2022Odevler.hafta3.odev2;
 
+import javaCamp2022Odevler.hafta3.odev2.abstractClasses.AbstractClasses;
+import javaCamp2022Odevler.hafta3.odev2.abstractsDemo.AbstractsDemo;
 import javaCamp2022Odevler.hafta3.odev2.inheritanceDemo.KrediUI;
 import javaCamp2022Odevler.hafta3.odev2.inheritanceDemo.OgretmenKrediManager;
+import javaCamp2022Odevler.hafta3.odev2.interfaceDemo.InterfaceDemo;
+import javaCamp2022Odevler.hafta3.odev2.interfaces.Interfaces;
 import javaCamp2022Odevler.hafta3.odev2.overriding.Overriding;
 import javaCamp2022Odevler.hafta3.odev2.polimorphismDemo.PolimorphismDemo;
+import javaCamp2022Odevler.hafta3.odev2.staticDemo.StaticDemo;
 
 public class Odev2 {
 	public static void run() {
@@ -37,5 +42,20 @@ public class Odev2 {
 		
 		/* OVERRIDING */
 		Overriding.run();
+		
+		/* ABSTRACT CLASSES */
+		AbstractClasses.run();
+		
+		/* ABSTRACTS DEMO */
+		AbstractsDemo.run();
+		
+		/* INTERFACES */
+		Interfaces.run();
+		
+		/* INTERFACE DEMO */
+		InterfaceDemo.run();
+		
+		/* STATIC DEMO */
+		StaticDemo.run();
 	}
 }
